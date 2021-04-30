@@ -1,0 +1,35 @@
+.Container-Row {
+  border: 10px solid #393838;
+  background-color: #1309ff;
+  opacity: 1;
+  height: 350px;
+  width: 175px;
+  padding: 30px;
+  margin: 50px;
+  top: 150px;
+  position: relative;
+}
+
+.column-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 350px;
+  width: 175px;
+}
+
+.box-container {
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.min-rectangle {
+  border: 2px solid lightgrey;
+  border-radius: 50px;
+  height: 60px;
+  width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lightgrey;
+}
